@@ -13,7 +13,6 @@ enum message_type {
 struct message_head {
   uint32_t size;
   uint32_t type;
-  char payload[0];
 };
 
 struct message {
